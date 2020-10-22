@@ -1,0 +1,37 @@
+:root {
+    --judge0-theme-tooltip: "Choose Theme";
+    --judge0-reload-tooltip: "Reload Initial Code";
+    --judge0-light-theme-name: "Light";
+    --judge0-dark-theme-name: "Dark";
+    --judge0-reload-confirm-message: "Are you sure? You will lose all your current changes.";
+    --judge0-status-1: "😴 In Queue";
+    --judge0-status-2: "⚙️ Processing";
+    --judge0-status-3: "✅ Correct Answer";
+    --judge0-status-4: "❌ Wrong Answer";
+    --judge0-status-5: "🕑 Time Limit Exceeded";
+    --judge0-status-6: "⚡ Compilation Error";
+    --judge0-status-7: "⚠️ Runtime Error (SIGSEGV)";
+    --judge0-status-8: "⚠️ Runtime Error (SIGXFSZ)";
+    --judge0-status-9: "⚠️ Runtime Error (SIGFPE)";
+    --judge0-status-10: "⚠️ Runtime Error (SIGABRT)";
+    --judge0-status-11: "⚠️ Runtime Error (NZEC)";
+    --judge0-status-12: "⚠️ Runtime Error (Other)";
+    --judge0-status-13: "‼️ Internal Error";
+    --judge0-status-14: "⁉️ Exec Format Error";
+}
+
+#judge0-run-btn::after {
+    content: "Run Code";
+}
+
+#judge0-tab-title-source::after {
+    content: "Source";
+}
+
+#judge0-tab-title-input::after {
+    content: "Input";
+}
+
+#judge0-tab-title-output::after {
+    content: "Output";
+}

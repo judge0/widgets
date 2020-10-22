@@ -1,0 +1,37 @@
+:root {
+    --judge0-theme-tooltip: "Odaberite izgled";
+    --judge0-reload-tooltip: "Učitaj početni kôd";
+    --judge0-light-theme-name: "Svjetlo";
+    --judge0-dark-theme-name: "Tamno";
+    --judge0-reload-confirm-message: "Jeste li sigurni? Izgubit će te sve dosadašnje promjene.";
+    --judge0-status-1: "😴 Čekam obradu";
+    --judge0-status-2: "⚙️ Obrađujem";
+    --judge0-status-3: "✅ Točan odgovor";
+    --judge0-status-4: "❌ Netočan odgovor";
+    --judge0-status-5: "🕑 Prekoračeno vrijeme izvođenja";
+    --judge0-status-6: "⚡ Greška prilikom prevođenja";
+    --judge0-status-7: "⚠️ Greška prilikom izvođenja (SIGSEGV)";
+    --judge0-status-8: "⚠️ Greška prilikom izvođenja (SIGXFSZ)";
+    --judge0-status-9: "⚠️ Greška prilikom izvođenja (SIGFPE)";
+    --judge0-status-10: "⚠️ Greška prilikom izvođenja (SIGABRT)";
+    --judge0-status-11: "⚠️ Greška prilikom izvođenja (NZEC)";
+    --judge0-status-12: "⚠️ Greška prilikom izvođenja (Other)";
+    --judge0-status-13: "‼️ Greška sustava";
+    --judge0-status-14: "⁉️ Pogrešan format programa";
+}
+
+#judge0-run-btn::after {
+    content: "Pokreni";
+}
+
+#judge0-tab-title-source::after {
+    content: "Program";
+}
+
+#judge0-tab-title-input::after {
+    content: "Ulaz";
+}
+
+#judge0-tab-title-output::after {
+    content: "Izlaz";
+}
