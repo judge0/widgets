@@ -1,4 +1,5 @@
 :root {
+    --judge0-i18n-tooltip: "Choose Language";
     --judge0-theme-tooltip: "Choose Theme";
     --judge0-reload-tooltip: "Reload Initial Code";
     --judge0-light-theme-name: "Light";

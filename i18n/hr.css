@@ -1,4 +1,5 @@
 :root {
+    --judge0-i18n-tooltip: "Odaberite jezik";
     --judge0-theme-tooltip: "Odaberite izgled";
     --judge0-reload-tooltip: "Učitaj početni kôd";
     --judge0-light-theme-name: "Svjetlo";
