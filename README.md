@@ -24,7 +24,7 @@
 ## Features for Paid Users
 If you are subscribed to a paid plan of at least one flavor of Judge0, you are a paid user.
 
-As a paid user you can set *Custom CSS* or *Expected Output* for your Judge0 Widget, but as a basic user, you can just preview these features.
+As a paid user you can set and save *Custom CSS* or *Expected Output* for your Judge0 Widget, but as a basic user, you can just preview these features.
 
 ## UI Translations
 Do you want to have an option for translating the UI to your native language? Please contribute to this project by translating the values in [en.css](./i18n/en.css).
@@ -69,8 +69,8 @@ Judge0 Widget with UI translated to Croatian.
 Editing Judge0 Widget settings.
 ![](./screenshots/widget_settings.png)
 
-Saving Judge0 Widgets and getting instructions for embedding.
+Saving Judge0 Widget and getting instructions for embedding.
 ![](./screenshots/save_widget.png)
 
-Judge0 Widgets in an online workbook with programming exercises.
+Judge0 Widget in an online workbook with programming exercises.
 ![](./screenshots/zbirka_online.png)
