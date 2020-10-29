@@ -1,0 +1,38 @@
+:root {
+    --judge0-i18n-tooltip: "زبان را انتخاب کنید";
+    --judge0-theme-tooltip: "تم را انتخاب کنید";
+    --judge0-reload-tooltip: "بارگذاری مجدد کد اولیه";
+    --judge0-light-theme-name: "روشن";
+    --judge0-dark-theme-name: "تاریک";
+    --judge0-reload-confirm-message: "مطمئن هستید؟ تمام تغییرات انجام شده حذف خواهند شد.";
+    --judge0-status-1: "😴 در صف";
+    --judge0-status-2: "⚙️ در حال پردازش";
+    --judge0-status-3: "✅ جواب درست";
+    --judge0-status-4: "❌ جواب غلط";
+    --judge0-status-5: "🕑 تجاوز از محدودیت زمان";
+    --judge0-status-6: "⚡ خطا در کامپایل";
+    --judge0-status-7: "⚠️ خطا در اجرا (SIGSEGV)";
+    --judge0-status-8: "⚠️ خطا در اجرا (SIGXFSZ)";
+    --judge0-status-9: "⚠️ خطا در اجرا (SIGFPE)";
+    --judge0-status-10: "⚠️ خطا در اجرا (SIGABRT)";
+    --judge0-status-11: "⚠️ خطا در اجرا (NZEC)";
+    --judge0-status-12: "⚠️ خطا در اجرا (غیره)";
+    --judge0-status-13: "‼️ خطای داخلی";
+    --judge0-status-14: "⁉️ خطای قالب برنامه";
+}
+
+#judge0-run-btn::after {
+    content: "اجرای کد";
+}
+
+#judge0-tab-title-source::after {
+    content: "منبع";
+}
+
+#judge0-tab-title-input::after {
+    content: "ورودی";
+}
+
+#judge0-tab-title-output::after {
+    content: "خروجی";
+}
