@@ -1,7 +1,7 @@
 :root {
     --judge0-i18n-tooltip: "Selecciona Lenguaje";
     --judge0-theme-tooltip: "Selecciona Tema";
-    --judge0-reload-tooltip: "Rcargar Código Inicial";
+    --judge0-reload-tooltip: "Recargar Código Inicial";
     --judge0-light-theme-name: "Claro";
     --judge0-dark-theme-name: "Obscuro";
     --judge0-reload-confirm-message: "¿Éstas seguro? Perderás todos tus cambios actuales.";
