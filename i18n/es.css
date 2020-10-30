@@ -1,0 +1,38 @@
+:root {
+    --judge0-i18n-tooltip: "Selecciona Lenguaje";
+    --judge0-theme-tooltip: "Selecciona Tema";
+    --judge0-reload-tooltip: "Recargar Código Inicial";
+    --judge0-light-theme-name: "Claro";
+    --judge0-dark-theme-name: "Obscuro";
+    --judge0-reload-confirm-message: "¿Éstas seguro? Perderás todos tus cambios actuales.";
+    --judge0-status-1: "😴 En Cola";
+    --judge0-status-2: "⚙️ Procesando";
+    --judge0-status-3: "✅ Respuesta Correcta";
+    --judge0-status-4: "❌ Respuesta Incorrecta";
+    --judge0-status-5: "🕑 Tiempo Limite Excedido";
+    --judge0-status-6: "⚡ Error de Compilación";
+    --judge0-status-7: "⚠️ Error de tiempo de ejecución (SIGSEGV)";
+    --judge0-status-8: "⚠️ Error de tiempo de ejecución (SIGXFSZ)";
+    --judge0-status-9: "⚠️ Error de tiempo de ejecución (SIGFPE)";
+    --judge0-status-10: "⚠️ Error de tiempo de ejecución (SIGABRT)";
+    --judge0-status-11: "⚠️ Error de tiempo de ejecución (NZEC)";
+    --judge0-status-12: "⚠️ Error de tiempo de ejecución (Other)";
+    --judge0-status-13: "‼️ Error Interno";
+    --judge0-status-14: "⁉️ Error de formato de ejecución";
+}
+
+#judge0-run-btn::after {
+    content: "Ejecutar código";
+}
+
+#judge0-tab-title-source::after {
+    content: "Fuente";
+}
+
+#judge0-tab-title-input::after {
+    content: "Entrada";
+}
+
+#judge0-tab-title-output::after {
+    content: "Salida";
+}
