@@ -18,7 +18,7 @@
     --judge0-status-11: "⚠️ Error de tiempo de ejecución (NZEC)";
     --judge0-status-12: "⚠️ Error de tiempo de ejecución (Other)";
     --judge0-status-13: "‼️ Error Interno";
-    --judge0-status-14: "⁉️ Errorde formato de ejecución";
+    --judge0-status-14: "⁉️ Error de formato de ejecución";
 }
 
 #judge0-run-btn::after {
