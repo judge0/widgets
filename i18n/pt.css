@@ -1,0 +1,38 @@
+:root {
+    --judge0-i18n-tooltip: "Escolher Linguagem";
+    --judge0-theme-tooltip: "Escolher Tema";
+    --judge0-reload-tooltip: "Reinicie o código inicial";
+    --judge0-light-theme-name: "Branco";
+    --judge0-dark-theme-name: "Escuro";
+    --judge0-reload-confirm-message: "Tem a certeza? Vai perder todas as modificações.";
+    --judge0-status-1: "😴 Em Espera";
+    --judge0-status-2: "⚙️ Precessando";
+    --judge0-status-3: "✅ Resposta Correta";
+    --judge0-status-4: "❌ Resposta Errada";
+    --judge0-status-5: "🕑 Tempo Excedido";
+    --judge0-status-6: "⚡ Erro de Compilação";
+    --judge0-status-7: "⚠️ Erro de execução (SIGSEGV)";
+    --judge0-status-8: "⚠️ Erro de execução  (SIGXFSZ)";
+    --judge0-status-9: "⚠️ Erro de execução  (SIGFPE)";
+    --judge0-status-10: "⚠️ Erro de execução  (SIGABRT)";
+    --judge0-status-11: "⚠️ Erro de execução  (NZEC)";
+    --judge0-status-12: "⚠️ Erro de execução  (Other)";
+    --judge0-status-13: "‼️ Erro Interno";
+    --judge0-status-14: "⁉️ Erro de execução formato";
+}
+
+#judge0-run-btn::after {
+    content: "Correr código";
+}
+
+#judge0-tab-title-source::after {
+    content: "Fonte";
+}
+
+#judge0-tab-title-input::after {
+    content: "Entrada";
+}
+
+#judge0-tab-title-output::after {
+    content: "Saida";
+}
